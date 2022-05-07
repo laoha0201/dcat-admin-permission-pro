@@ -1,7 +1,7 @@
 {
-    "name": "dcat-admin-permission-pro",
-    "alias": "高级权限管理",
-    "description": "快捷设置权限且一键导入权限列表",
+    "name": "nicesome/dcat-admin-permission-pro",
+    "alias": "权限管理",
+    "description": "扫描控制器与权限导入",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
     "homepage": "https://github.com/nicesome/dcat-admin-permission-pro",
