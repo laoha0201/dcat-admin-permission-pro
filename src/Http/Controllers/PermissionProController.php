@@ -1,19 +1,19 @@
 <?php
 
-namespace DcatAdmin\PermissionPlus\Http\Controllers;
+namespace DcatAdmin\PermissionPro\Http\Controllers;
 
 use Dcat\Admin\Admin;
 use Dcat\Admin\Layout\Content;
-use DcatAdmin\PermissionPlus\PermissionProServiceProvider;
+use DcatAdmin\PermissionPro\PermissionProServiceProvider;
 use Doctrine\Common\Annotations\AnnotationReader;
 use Illuminate\Routing\Controller;
 use Illuminate\Routing\Route;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use ReflectionClass;
-use DcatAdmin\PermissionPlus\Annotations\Module;
-use DcatAdmin\PermissionPlus\Annotations\Permission;
-use DcatAdmin\PermissionPlus\Support\Output;
+use DcatAdmin\PermissionPro\Annotations\Module;
+use DcatAdmin\PermissionPro\Annotations\Permission;
+use DcatAdmin\PermissionPro\Support\Output;
 
 class PermissionProController extends Controller
 {
