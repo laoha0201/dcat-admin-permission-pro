@@ -1,6 +1,6 @@
 <?php
 
-namespace DcatAdmin\PermissionPlus;
+namespace DcatAdmin\PermissionPro;
 
 use Dcat\Admin\Extend\ServiceProvider;
 
