@@ -4,7 +4,7 @@ namespace DcatAdmin\PermissionPlus\Http\Controllers;
 
 use Dcat\Admin\Admin;
 use Dcat\Admin\Layout\Content;
-use DcatAdmin\PermissionPlus\PermissionPlusServiceProvider;
+use DcatAdmin\PermissionPlus\PermissionProServiceProvider;
 use Doctrine\Common\Annotations\AnnotationReader;
 use Illuminate\Routing\Controller;
 use Illuminate\Routing\Route;
@@ -15,7 +15,7 @@ use DcatAdmin\PermissionPlus\Annotations\Module;
 use DcatAdmin\PermissionPlus\Annotations\Permission;
 use DcatAdmin\PermissionPlus\Support\Output;
 
-class PermissionPlusController extends Controller
+class PermissionProController extends Controller
 {
     /**
      * @var Output
@@ -46,7 +46,7 @@ class PermissionPlusController extends Controller
     public function import()
     {
         $this->output->header();
-        $this->output->output(PermissionPlusServiceProvider::setting('box_log_start') ?: "正在扫描控制器目录文件中：");
+        $this->output->output(PermissionProServiceProvider::setting('box_log_start') ?: "正在扫描控制器目录文件中：");
         $this->output->output("---------------------------------------------------------------");
 
         ///
@@ -115,7 +115,7 @@ class PermissionPlusController extends Controller
 
         ///
         $this->output->output("---------------------------------------------------------------");
-        $this->output->output(PermissionPlusServiceProvider::setting('box_log_end') ?: "✅ 扫描完成，已全部导入成功！");
+        $this->output->output(PermissionProServiceProvider::setting('box_log_end') ?: "✅ 扫描完成，已全部导入成功！");
         $this->output->output(" ");
         $this->output->end();
     }

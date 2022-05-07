@@ -1,9 +1,9 @@
-# Dcat Admin Extension PermissionPlus
+# Dcat Admin Extension PermissionPro
 
 #### 安装
 
 ```php
-composer require nicesome/permission-plus
+composer require nicesome/permission-pro
 ```
 
 #### 使用

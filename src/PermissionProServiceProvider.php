@@ -4,7 +4,7 @@ namespace DcatAdmin\PermissionPlus;
 
 use Dcat\Admin\Extend\ServiceProvider;
 
-class PermissionPlusServiceProvider extends ServiceProvider
+class PermissionProServiceProvider extends ServiceProvider
 {
 	protected $js = [
         'js/index.js',

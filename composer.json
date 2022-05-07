@@ -1,10 +1,10 @@
 {
-    "name": "dcat-admin.permission-plus",
+    "name": "dcat-admin.permission-pro",
     "alias": "高级权限管理",
     "description": "快捷设置权限且一键导入权限列表",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
-    "homepage": "https://github.com/nicesome/dcat-admin-permission-plus",
+    "homepage": "https://github.com/nicesome/dcat-admin-permission-pro",
     "license": "MIT",
     "authors": [
         {
@@ -23,10 +23,10 @@
         }
     },
     "extra": {
-        "dcat-admin": "DcatAdmin\\PermissionPlus\\PermissionPlusServiceProvider",
+        "dcat-admin": "DcatAdmin\\PermissionPro\\PermissionProServiceProvider",
         "laravel": {
             "providers": [
-                "DcatAdmin\\PermissionPlus\\PermissionPlusServiceProvider"
+                "DcatAdmin\\PermissionPro\\PermissionProServiceProvider"
             ]
         }
     }
