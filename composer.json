@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "DcatAdmin\\PermissionPlus\\": "src/"
+            "DcatAdmin\\PermissionPro\\": "src/"
         }
     },
     "extra": {
