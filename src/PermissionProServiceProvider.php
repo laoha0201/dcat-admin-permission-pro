@@ -15,7 +15,7 @@ class PermissionProServiceProvider extends ServiceProvider
 
 	protected $menu = [
         'title' => '权限导入',
-        'uri'  => 'permission-plus',
+        'uri'  => 'permission-pro',
         'icon'  => 'feather icon-lock',
     ];
 
