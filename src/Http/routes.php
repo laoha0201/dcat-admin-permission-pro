@@ -1,6 +1,6 @@
 <?php
 
-use DcatAdmin\PermissionPlus\Http\Controllers;
+use DcatAdmin\PermissionPro\Http\Controllers;
 use Illuminate\Support\Facades\Route;
 
 Route::get('permission-pro', Controllers\PermissionProController::class . '@index');
