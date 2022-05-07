@@ -1,0 +1,33 @@
+{
+    "name": "dcat-admin/permission-plus",
+    "alias": "高级权限管理",
+    "description": "快捷设置权限且一键导入权限列表",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/nicesome/dcat-admin-permission-plus",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nicesome",
+            "email": "zhiyuan.me@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0",
+        "doctrine/annotations": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "DcatAdmin\\PermissionPlus\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "DcatAdmin\\PermissionPlus\\PermissionPlusServiceProvider",
+        "laravel": {
+            "providers": [
+                "DcatAdmin\\PermissionPlus\\PermissionPlusServiceProvider"
+            ]
+        }
+    }
+}
