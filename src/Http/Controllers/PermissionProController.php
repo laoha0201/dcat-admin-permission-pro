@@ -40,7 +40,7 @@ class PermissionProController extends Controller
         return $content
             ->title('权限管理')
             ->description('增强版')
-            ->body(Admin::view('dcat-admin.permission-pro::index'));
+            ->body(Admin::view('permission-pro::index'));
     }
 
     public function import()
