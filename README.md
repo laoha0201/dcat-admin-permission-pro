@@ -1,5 +1,11 @@
 # Dcat Admin Extension PermissionPro
 
+
+#### 说明
+本插件来源 [tanmotop](https://github.com/tanmotop/dcat-admin-permission-plus) 改造，兼容最新 Dcat Admin 测试版 v2.2.0
+
+主要用于扫描控制器注解，并自动导入数据库中
+
 #### 安装
 
 ```php
@@ -41,3 +47,9 @@ $router->resource('posts', 'PostController'); // 没有添加路由无法被扫�
 四、导入权限
 
 登录后台 -> 权限导入 -> 点击"导入权限"按钮
+
+
+#### 特别鸣谢
+[tanmotop](https://github.com/tanmotop/dcat-admin-permission-plus)
+
+基于该包进行 Dcat Admin Beta v2.2.0 兼容性，在此基础上优化部分操作。

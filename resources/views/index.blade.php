@@ -17,7 +17,7 @@
         <div class="box-footer row" style="display: flex">
             <div class="col-md-2">
                 <iframe name="hide-frame" style="display: none"></iframe>
-                <form action="{{ admin_route('permission-plus.import') }}" method="post" target="hide-frame">
+                <form action="{{ admin_route('permission-pro.import') }}" method="post" target="hide-frame">
                     {{ csrf_field() }}
                     <button type="submit" class="btn btn-primary pull-left">
                         {!! \DcatAdmin\PermissionPlus\PermissionProServiceProvider::setting('box_btn') ?: '<i class="feather icon-save"></i> 导入权限' !!}
