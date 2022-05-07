@@ -1,5 +1,5 @@
 {
-    "name": "dcat-admin.permission-pro",
+    "name": "dcat-admin-permission-pro",
     "alias": "高级权限管理",
     "description": "快捷设置权限且一键导入权限列表",
     "type": "library",
