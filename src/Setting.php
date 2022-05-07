@@ -5,7 +5,7 @@ namespace DcatAdmin\PermissionPro;
 use Dcat\Admin\Extend\Setting as Form;
 
 class Setting extends Form
-{https://github.com/nicesome/dcat-admin-permission-pro/blob/master/src/Setting.php
+{
     public function form()
     {
         $this->text('box_title', '盒子标题');
