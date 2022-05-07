@@ -1,7 +1,7 @@
 <?php
 
 
-namespace DcatAdmin\PermissionPlus\Support;
+namespace DcatAdmin\PermissionPro\Support;
 
 
 use Dcat\Admin\Admin;
