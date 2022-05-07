@@ -1,14 +1,14 @@
 <?php
 
 
-namespace DcatAdmin\PermissionPlus\Annotations;
+namespace DcatAdmin\PermissionPro\Annotations;
 
 use Doctrine\Common\Annotations\Annotation\Required;
 
 /**
  * @Annotation
  * Class Module
- * @package DcatAdmin\PermissionPlus\Annotations
+ * @package DcatAdmin\PermissionPro\Annotations
  */
 final class Module
 {
