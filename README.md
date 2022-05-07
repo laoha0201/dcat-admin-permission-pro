@@ -3,7 +3,7 @@
 #### 安装
 
 ```php
-composer require nicesome/permission-pro
+composer require nicesome/dcat-admin-permission-pro
 ```
 
 #### 使用
